@@ -8,12 +8,6 @@
 
 import Foundation
 
-enum SocialLoginType: Int {
-    case google = 0
-    case faceBook
-    case apple
-}
-
 struct Constants {
     struct Segue {
         static let verifyOTP = "segueToVerifyOtp"
